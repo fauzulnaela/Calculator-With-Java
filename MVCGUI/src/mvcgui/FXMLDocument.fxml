@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="369.0" prefWidth="262.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mvcgui.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="buttonDua" layoutX="15.0" layoutY="97.0" onAction="#handleButtonTujuh" prefHeight="49.0" prefWidth="45.0" text="7" />
+      <TextField fx:id="textFieldHasil" editable="false" layoutX="15.0" layoutY="27.0" prefHeight="52.0" prefWidth="231.0" />
+      <Button fx:id="buttonDua2" layoutX="15.0" layoutY="163.0" onAction="#handleButtonEmpat" prefHeight="49.0" prefWidth="46.0" text="4" />
+      <Button fx:id="buttonDua21" layoutX="15.0" layoutY="228.0" onAction="#handleButtonSatu" prefHeight="49.0" prefWidth="46.0" text="1" />
+      <Button fx:id="button8" layoutX="76.0" layoutY="97.0" onAction="#handleButtonDelapan" prefHeight="49.0" prefWidth="45.0" text="8" />
+      <Button fx:id="buttonDua22" layoutX="76.0" layoutY="163.0" onAction="#handleButtonLima" prefHeight="49.0" prefWidth="46.0" text="5" />
+      <Button fx:id="buttonDua212" layoutX="76.0" layoutY="228.0" onAction="#handleButtonDua" prefHeight="49.0" prefWidth="46.0" text="2" />
+      <Button fx:id="buttonDua2121" layoutX="75.0" layoutY="293.0" onAction="#handleButtonNol" prefHeight="49.0" prefWidth="46.0" text="0" />
+      <Button fx:id="buttonDua11" layoutX="138.0" layoutY="97.0" onAction="#handleButtonSembilan" prefHeight="49.0" prefWidth="45.0" text="9" />
+      <Button fx:id="buttonDua221" layoutX="138.0" layoutY="163.0" onAction="#handleButtonEnam" prefHeight="49.0" prefWidth="46.0" text="6" />
+      <Button fx:id="buttonDua2122" layoutX="138.0" layoutY="228.0" onAction="#handleButtonTiga" prefHeight="49.0" prefWidth="46.0" text="3" />
+      <Button fx:id="buttonDua21211" layoutX="14.0" layoutY="292.0" onAction="#handleButtonClear" prefHeight="49.0" prefWidth="46.0" text="C" textFill="#f50707" />
+      <Button fx:id="buttonDua21212" layoutX="138.0" layoutY="293.0" onAction="#handleButtonSamaDengan" prefHeight="49.0" prefWidth="46.0" text="=" textFill="#2c16d7" />
+      <Button fx:id="buttonDua111" layoutX="200.0" layoutY="98.0" onAction="#handleButtonBagi" prefHeight="49.0" prefWidth="45.0" text="/" textFill="#f59e08" />
+      <Button fx:id="buttonDua2211" layoutX="200.0" layoutY="164.0" onAction="#handleButtonKurang" prefHeight="49.0" prefWidth="46.0" text="-" textFill="#1f8cc3" />
+      <Button fx:id="buttonDua21221" layoutX="200.0" layoutY="229.0" onAction="#handleButtonKali" prefHeight="49.0" prefWidth="46.0" text="*" textFill="#24c629" />
+      <Button fx:id="buttonDua212121" layoutX="200.0" layoutY="294.0" onAction="#handleButtonPlus" prefHeight="49.0" prefWidth="46.0" text="+" textFill="#e49393" />
+    </children>
+</AnchorPane>
